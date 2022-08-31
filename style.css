@@ -1,0 +1,66 @@
+.accordion {
+    font-weight: bold;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+    background-image: url(https://images.unsplash.com/photo-1584985598389-3a36cb7aa1c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b25lJTIwY29sb3J8ZW58MHx8MHx8&w=1000&q=80);
+
+
+
+}
+
+.active,
+.accordion:hover {
+
+
+    background-color: #FFF842;
+    background-image: url(https://images.unsplash.com/photo-1568561300108-e0c35b5f7c1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80);
+    color: yellow;
+    font-weight: bold;
+
+    box-shadow: #fbf547 -1px 1px, #fdf746 -2px 2px, #fef846 -3px 3px, #fef84a -4px 4px, #fbf544 -5px 5px, #fef844 -6px 6px;
+    transform: translate3d(6px, -6px, 0);
+
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: line;
+
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-image: url(https://cdn.wallpapersafari.com/16/55/lGIuo0.jpg);
+    overflow: hidden;
+    color: black;
+    border-radius: 25px 25px 25px 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size:50px;
+  color: black;
+  text-transform: uppercase;
+  padding: 1px;
+  height: px;
+  font-weight: 100;
+  position: relative;
+  border-radius: 0px 75px 0px 75px;
+  background: linear-gradient(to right, blue, #eee, blue);
+  background-image: url(https://webdesigndev.com/wp-content/uploads/2020/11/Cover-Image-1.jpg.webp);
+
+    
+}
+
+
+  
